@@ -1,9 +1,11 @@
 require 'sinatra'
 
 get '/' do
-	'hello, Lucy and Jon!'
+	"<div style='border: 3px dashed red'>
+    <img src='http://bit.ly/1eze8aE'>
+  </div>"
 end
 
-get'/secret' do 
+get '/secret' do 
 'This is a not so secret page'
 end
